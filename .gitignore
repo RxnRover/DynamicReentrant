@@ -1,1 +1,18 @@
-builds/
+# Libraries
+*.lvlibp
+*.llb
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+
+# Computer-specific settings
+*.lvlps
+
+# Project-specific files
+logs/
