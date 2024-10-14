@@ -4,20 +4,24 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messaging" Type="Folder">
-		<Item Name="Construct Message.vi" Type="VI" URL="/&lt;userlib&gt;/DynamicReentrant/src/Messaging/Construct Message.vi"/>
-		<Item Name="Dequeue Message.vi" Type="VI" URL="/&lt;userlib&gt;/DynamicReentrant/src/Messaging/Dequeue Message.vi"/>
-		<Item Name="Enqueue Message.vi" Type="VI" URL="/&lt;userlib&gt;/DynamicReentrant/src/Messaging/Enqueue Message.vi"/>
-		<Item Name="Peak at Message.vi" Type="VI" URL="/&lt;userlib&gt;/DynamicReentrant/src/Messaging/Peak at Message.vi"/>
-		<Item Name="Send Message.vi" Type="VI" URL="/&lt;userlib&gt;/DynamicReentrant/src/Messaging/Send Message.vi"/>
+	<Item Name="src" Type="Folder">
+		<Item Name="Messaging" Type="Folder">
+			<Item Name="Construct Message.vi" Type="VI" URL="../src/Messaging/Construct Message.vi"/>
+			<Item Name="Dequeue Message.vi" Type="VI" URL="../src/Messaging/Dequeue Message.vi"/>
+			<Item Name="Enqueue Message.vi" Type="VI" URL="../src/Messaging/Enqueue Message.vi"/>
+			<Item Name="Peak at Message.vi" Type="VI" URL="../src/Messaging/Peak at Message.vi"/>
+			<Item Name="Send Message.vi" Type="VI" URL="../src/Messaging/Send Message.vi"/>
+		</Item>
+		<Item Name="Type Defs" Type="Folder">
+			<Item Name="Message.ctl" Type="VI" URL="../src/Type Defs/Message.ctl"/>
+		</Item>
+		<Item Name="build_actions.lvlib" Type="Library" URL="../src/build_actions.lvlib"/>
+		<Item Name="Obtain Main VI Queue.vi" Type="VI" URL="../src/Obtain Main VI Queue.vi"/>
+		<Item Name="Obtain Reentrant VI Name.vi" Type="VI" URL="../src/Obtain Reentrant VI Name.vi"/>
+		<Item Name="Obtain Reentrant VI Queue.vi" Type="VI" URL="../src/Obtain Reentrant VI Queue.vi"/>
+		<Item Name="Open Reentrant VI.vi" Type="VI" URL="../src/Open Reentrant VI.vi"/>
+		<Item Name="Queue Exists.vi" Type="VI" URL="../src/Queue Exists.vi"/>
+		<Item Name="Queue Name.vi" Type="VI" URL="../src/Queue Name.vi"/>
 	</Item>
-	<Item Name="Type Defs" Type="Folder">
-		<Item Name="Message.ctl" Type="VI" URL="/&lt;userlib&gt;/DynamicReentrant/src/Type Defs/Message.ctl"/>
-	</Item>
-	<Item Name="Obtain Main VI Queue.vi" Type="VI" URL="/&lt;userlib&gt;/DynamicReentrant/src/Obtain Main VI Queue.vi"/>
-	<Item Name="Obtain Reentrant VI Name.vi" Type="VI" URL="/&lt;userlib&gt;/DynamicReentrant/src/Obtain Reentrant VI Name.vi"/>
-	<Item Name="Obtain Reentrant VI Queue.vi" Type="VI" URL="/&lt;userlib&gt;/DynamicReentrant/src/Obtain Reentrant VI Queue.vi"/>
-	<Item Name="Open Reentrant VI.vi" Type="VI" URL="/&lt;userlib&gt;/DynamicReentrant/src/Open Reentrant VI.vi"/>
-	<Item Name="Queue Exists.vi" Type="VI" URL="/&lt;userlib&gt;/DynamicReentrant/src/Queue Exists.vi"/>
-	<Item Name="Queue Name.vi" Type="VI" URL="/&lt;userlib&gt;/DynamicReentrant/src/Queue Name.vi"/>
+	<Item Name="README.md" Type="Document" URL="../README.md"/>
 </Library>
