@@ -129,7 +129,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Dynamic Reentrant.lvlib/src/build_actions.lvlib/Post-Build Action.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Dynamic Reentrant.lvlib/src/build_actions.lvlib/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{369BACF8-9848-4106-AC50-544232019FAD}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">user.lib/DynamicReentrant</Property>
@@ -171,7 +171,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Dynamic Reentrant.lvlib/src/build_actions.lvlib/Post-Build Action.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Dynamic Reentrant.lvlib/src/build_actions.lvlib/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{98AEF407-E2F0-4FAC-846C-8596721DD208}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/DynamicReentrant</Property>

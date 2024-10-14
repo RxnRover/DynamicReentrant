@@ -23,5 +23,6 @@
 		<Item Name="Queue Exists.vi" Type="VI" URL="../src/Queue Exists.vi"/>
 		<Item Name="Queue Name.vi" Type="VI" URL="../src/Queue Name.vi"/>
 	</Item>
+	<Item Name="LICENSE.txt" Type="Document" URL="../LICENSE.txt"/>
 	<Item Name="README.md" Type="Document" URL="../README.md"/>
 </Library>
