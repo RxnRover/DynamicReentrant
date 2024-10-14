@@ -129,7 +129,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Dynamic Reentrant.lvlib/src/build_actions.lvlib/Post-Build Action.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Dynamic Reentrant.lvlib/src/build_actions.lvlib/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{369BACF8-9848-4106-AC50-544232019FAD}</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">user.lib/DynamicReentrant</Property>
@@ -139,7 +139,7 @@
 				<Property Name="Destination[1].path" Type="Path">user.lib/DynamicReentrant/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToAppDir</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1FD2E70B-1D3B-40CC-B5EB-DD550F62DA14}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3E42B962-2651-4FF3-B3FB-893BBF82722F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dynamic Reentrant.lvlib</Property>
