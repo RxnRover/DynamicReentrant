@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-10-14 18:55:46" Modified_Date="2024-10-14 19:26:13" Creator="zachc" Comments="" ID="51e79d0743b4990b962bf6cf5fdb277b">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-10-14 18:55:46" Modified_Date="2024-10-18 12:51:42" Creator="zachc" Comments="" ID="4e151bb96b67bc109c1f3bc965b6a0f9">
   <Library_General_Settings>
     <Package_File_Name>Rxn_Rover_lib_Dynamic_Reentrant</Package_File_Name>
-    <Library_Version>1.0.1.6</Library_Version>
+    <Library_Version>1.0.1.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\vipm_package_builds</Library_Output_Folder>
@@ -40,7 +40,7 @@
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;vi.lib&gt;\RxnRover\DynamicReentrant</Path>
+        <Path>&lt;user.lib&gt;\RxnRover\DynamicReentrant</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
@@ -124,6 +124,9 @@
       </Exclusions>
       <Exclusions>
         <Path>.gitignore</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Dynamic Reentrant.lvproj</Path>
       </Exclusions>
       <Place_Folder_Contents>
         <Path/>
@@ -312,7 +315,7 @@
         <Path>src\Queue Name.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A912F6EBD26E9E6BC7704E407A9D0AF0</GUID>
+      <GUID>877D6C5B4006A2BD7A897BB451C8359D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -403,7 +406,7 @@
         <Path>src\Messaging\Send Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3501E8B5F48F886522ACCCA996D3C79D</GUID>
+      <GUID>C3E16E36DE8FD31EAFEB036F9295B399</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -438,7 +441,7 @@
         <Path>src\Type Defs\Message.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3C0D953B87CAF64EC5B4BDBFD9B68E5B</GUID>
+      <GUID>C85CB528562B5307539C52E05C5145F5</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

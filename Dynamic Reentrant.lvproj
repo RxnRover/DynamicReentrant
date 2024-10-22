@@ -13,10 +13,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="build_actions.lvlib" Type="Library" URL="../src/build_actions.lvlib"/>
 		<Item Name="Dynamic Reentrant.lvlib" Type="Library" URL="../Dynamic Reentrant.lvlib"/>
+		<Item Name="LICENSE.txt" Type="Document" URL="../LICENSE.txt"/>
+		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="RxnRoverBuildTools.lvlib" Type="Library" URL="/&lt;userlib&gt;/RxnRoverBuildTools/RxnRoverBuildTools.lvlib"/>
+				<Item Name="RxnRoverBuildTools.lvlib" Type="Library" URL="/&lt;userlib&gt;/RxnRover/RxnRoverBuildTools/RxnRoverBuildTools.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -127,8 +130,8 @@
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
 				<Property Name="Bld_localDestDir" Type="Path">user.lib/DynamicReentrant</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Dynamic Reentrant.lvlib/src/build_actions.lvlib/Post-Build Action.vi</Property>
-				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Dynamic Reentrant.lvlib/src/build_actions.lvlib/Pre-Build Action.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/build_actions.lvlib/Post-Build Action.vi</Property>
+				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/build_actions.lvlib/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{369BACF8-9848-4106-AC50-544232019FAD}</Property>
 				<Property Name="Bld_version.build" Type="Int">23</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -148,7 +151,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Dynamic Reentrant.lvlib/src/build_actions.lvlib</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/build_actions.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
@@ -169,8 +172,8 @@
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../builds/DynamicReentrant</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Dynamic Reentrant.lvlib/src/build_actions.lvlib/Post-Build Action.vi</Property>
-				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Dynamic Reentrant.lvlib/src/build_actions.lvlib/Pre-Build Action.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/build_actions.lvlib/Post-Build Action.vi</Property>
+				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/build_actions.lvlib/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{98AEF407-E2F0-4FAC-846C-8596721DD208}</Property>
 				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -190,7 +193,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Dynamic Reentrant.lvlib/src/build_actions.lvlib</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/build_actions.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
