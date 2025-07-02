@@ -17,6 +17,5 @@ user-created, common libraries used across multiple projects are located.
 
 ### For Rxn Rover > v1.0.3 and plugins
 
-Download the latest [Release](https://github.com/RxnRover/DynamicReentrant/releases)
-of Dynamic Reentrant and paste it into `<labview>/user.lib/`. *More detailed
-instructions needed pending DynamicReentrant v2.0.0 release.*
+Download the latest `.vip` [Release](https://github.com/RxnRover/DynamicReentrant/releases)
+of Dynamic Reentrant and double click to install it via VIPM.
