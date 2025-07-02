@@ -8,11 +8,14 @@
 *.so.*
 *.dylib
 
-# Executables
+# Build
 *.exe
+builds/
 
-# Computer-specific settings
+# Metadata
+*.aliases
 *.lvlps
+.cache/
 
 # Project-specific files
 logs/
